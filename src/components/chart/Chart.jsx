@@ -8,6 +8,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+/* used recharts */
 function Chart({ title, data, dataKey, grid }) {
   return (
     <div className="chart">
