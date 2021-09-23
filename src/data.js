@@ -1,3 +1,4 @@
+/* dummy data till implemented with any api */
 export const data = [
   {
     name: "Jan",
@@ -28,7 +29,7 @@ export const data = [
     "Active User": 4000,
   },
   {
-    name: "Agu",
+    name: "Aug",
     "Active User": 3000,
   },
   {
