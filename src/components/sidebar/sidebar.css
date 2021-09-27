@@ -4,7 +4,7 @@
   position: sticky;
   height: calc(100vh - 50px);
   top: 50px;
-  flex: 0.6; /* change sidebar container width */
+  flex: 0.7; /* change sidebar container width */
 }
 
 .sidebarWrapper {
