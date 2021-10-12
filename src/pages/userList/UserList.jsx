@@ -87,18 +87,6 @@ function Userlist() {
         );
       },
     },
-    {
-      field: "fullName",
-      headerName: " ",
-      description:
-        "This column is used to sort and filter data according to some options.",
-      sortable: false,
-      width: 10,
-      valueGetter: (params) =>
-        `${params.getValue(params.id, "firstName") || ""} ${
-          params.getValue(params.id, "lastName") || ""
-        }`,
-    },
   ];
 
   return (
