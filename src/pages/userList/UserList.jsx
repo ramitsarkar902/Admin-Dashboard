@@ -5,7 +5,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import { DeleteOutline } from "@material-ui/icons";
 import { userRows } from "../../data";
 
-function Userlist() {
+function UserList() {
   const [data, setData] = useState(userRows);
 
   const handleDelete = (id) => {
@@ -103,4 +103,4 @@ function Userlist() {
   );
 }
 
-export default Userlist;
+export default UserList;
