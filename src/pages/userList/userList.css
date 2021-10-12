@@ -10,6 +10,12 @@
   object-fit: cover;
   margin-right: 10px;
 }
+.status {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
 .userListUser {
   display: flex;

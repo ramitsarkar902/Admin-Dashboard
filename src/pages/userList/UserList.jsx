@@ -39,7 +39,25 @@ function Userlist() {
       type: "number",
       width: 120,
       editable: true,
-      renderCell: (params) => {}, //need to make active status
+      renderCell: (params) => {
+        return (
+          <>
+            {params.row.status === "active" ? (
+              <img
+                className="status"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Check_icon.svg/120px-Check_icon.svg.png"
+                alt="active"
+              ></img>
+            ) : (
+              <img
+                className="status"
+                src="https://icon-library.com/images/inactive-icon/inactive-icon-8.jpg"
+                alt="inactive"
+              ></img>
+            )}
+          </>
+        );
+      },
     },
     {
       field: "transaction",
