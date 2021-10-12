@@ -6,7 +6,7 @@ function Topbar() {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="logo">admin's Point</span>
+          <span className="logo">adminHUB</span>
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
